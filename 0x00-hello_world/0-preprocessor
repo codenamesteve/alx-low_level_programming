@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -E input_file.c -o output_file.i
