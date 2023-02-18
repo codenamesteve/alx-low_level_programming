@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/*main - Description?
+/*
+ *main - Description?
  *Attempting to code in C
  *
  *Let's go!
