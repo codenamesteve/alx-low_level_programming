@@ -6,9 +6,12 @@
  */
 int main(void)
 {
-char alphabet = [a..z];
+char alphabet[26];
 
-putchar(alphabet);
+for (int i = 0; i < 26; i++) {
+alphabet[i] = 'a' + i;
+putchar(alphabet[i]);
+}
 putchar("\n");
 
 return (0);
