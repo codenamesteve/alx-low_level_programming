@@ -1,11 +1,12 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /*
  *Attempting to code in C
  *
  *Let's go!                                                                                                                                                  
  */
-int main(void){
+int main(void)
+{
   int n;
 
   srand(time(0));
