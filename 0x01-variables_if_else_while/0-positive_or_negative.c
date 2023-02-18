@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <time.h>
 /*
- *main - Description? This program will assign a random number to the variable n each time it is executed and
- *print whether the number stored in the variable n is positive, negative or zero.
+ *main - Description? This program will assign a random number to the 
+ *variable n each time it is executed and print whether
+ *the number stored in the variable n is positive, negative or zero.
  *Attempting to code in C
  *
  *Let's go!
