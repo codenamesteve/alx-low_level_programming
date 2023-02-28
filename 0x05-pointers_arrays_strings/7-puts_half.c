@@ -7,13 +7,14 @@
 void puts_half(char *str)
 {
 int x = strlen(str);
+int n;
 if (x % 2 != 0)
 {
-  int n = (x - 1) / 2;
+n = (x - 1) / 2;
 }
 else
 {
-  int n = x / 2;
+n = x / 2;
 }
 int i;
 for (i = n; i < x; i++)
