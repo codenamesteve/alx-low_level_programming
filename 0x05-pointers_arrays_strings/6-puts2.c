@@ -12,13 +12,13 @@ for (i = 0; i < x; i++)
 {
 if(i == 0)
 {
-puts(str);
+puts(str[i]);
 }else if(i%2 == 0)
 {
 continue;
 }else
 {
-puts(str);
+puts(str[i]);
 }
 }
 }
