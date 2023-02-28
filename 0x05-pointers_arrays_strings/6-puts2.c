@@ -21,5 +21,4 @@ continue;
 puts(str);
 }
 }
-puts('\n');
 }
