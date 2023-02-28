@@ -3,18 +3,17 @@
 /**
  * print_array - Main Code Insertion
  * @a: char type pointer.
- * @b: char type pointer.
+ * @n: char type pointer.
 */
 void print_array(int *a, int n)
 {
-int x = strlen(str);
 int i;
-for (i = 0; i < x; i++)
+for (i = 0; i < n; i++)
 {
-if(i != (x - 1))
+if(i != (n - 1))
 {
 putchar(a[i]);
-puthchar(',');
+putchar(',');
 putchar(' ');
 }
 else
