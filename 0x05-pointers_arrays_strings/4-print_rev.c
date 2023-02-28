@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * print_rev - Main Code Insertion
  * @str: int type pointer.
