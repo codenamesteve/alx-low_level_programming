@@ -1,6 +1,6 @@
 #include "main.h"
-/**                                                                                                                                                          
- * main - Main code
+/**
+ * reset_to_98 - Main code
  * 
  * Return: Always 0.
  */
