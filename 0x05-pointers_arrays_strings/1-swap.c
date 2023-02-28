@@ -4,7 +4,7 @@
  * @a: int type pointer.
  * @b: int type pointer.
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 x = *a;
 y = *b;
