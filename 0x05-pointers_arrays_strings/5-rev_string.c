@@ -3,7 +3,6 @@
 /**
  * rev_string - Main Code Insertion
  * @s: char type pointer.
- * Return: Always return 0.
  */
 void rev_string(char *s)
 {
@@ -14,5 +13,4 @@ for (i = x; i >= 0; i--)
 putchar(s[i]);
 }
 putchar('\n');
-return (0);
 }
