@@ -11,7 +11,6 @@ int i;
 char y;
 for (i = x; i >= 0; i--)
 {
-y = y + (s[i]);
+s[i] = (s[i]);
 }
-s = y;
 }
