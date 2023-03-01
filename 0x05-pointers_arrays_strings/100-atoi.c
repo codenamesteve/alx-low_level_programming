@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * _atoi - Main Code Insertion
- ** _atoi - Convert a string to an integer.
+ *  _atoi - Convert a string to an integer.
  * @s: A pointer to the string to be converted.
  *
  * Return: The integer value of the string, or 0 if no numbers are found.
@@ -36,5 +35,5 @@ break;
 
 s++;
 }
-return sign * result;
+return (sign * result);
 }
