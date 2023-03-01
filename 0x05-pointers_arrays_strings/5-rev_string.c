@@ -6,12 +6,6 @@
  */
 void rev_string(char *s)
 {
-/*int length = strlen(s) - 1;
-int i;
-for (i = length; i >= 0; i--)
-{
-s = putschar(s[i]);
-}*/
 int length = strlen(s);
 char *start = s;
 char *end = s + length - 1;
