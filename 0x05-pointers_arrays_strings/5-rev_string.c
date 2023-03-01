@@ -13,5 +13,5 @@ for (i = length; i >= 0; i--)
 {
 temp = temp + (s[i]);
 }
-s = temp;
+putchar(temp);
 }
