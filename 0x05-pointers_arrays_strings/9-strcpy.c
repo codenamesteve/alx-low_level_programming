@@ -9,11 +9,11 @@ char *_strcpy(char *dest, char *src)
 {
 char *dest_start = dest;
 while (*src != '\0')
-{  // loop until null terminator is reached
-*dest = *src;  // copy character from src to dest 
-dest++;  // move dest and src pointers to next character
+{
+*dest = *src;
+dest++;
 src++;
 }
-*dest = '\0';  // add null terminator at end of string 
+*dest = '\0';
 return dest_start;
 }
