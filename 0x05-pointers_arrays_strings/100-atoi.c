@@ -35,6 +35,7 @@ break;
 
 s++;
 }
-int final = x * result;
+int final;
+final = x * result;
 return (final);
 }
