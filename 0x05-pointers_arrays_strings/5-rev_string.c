@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <string.h>
 /**
  * rev_string - Main Code Insertion
@@ -9,7 +8,7 @@ void rev_string(char *s)
 int length = strlen(s) - 1;
 int i;
 char temp;
-for (i = 0; i < length; i--)
+for (i = 0; i < length; i++)
 {
 temp = s[i];
 s[i] = s[length - i - 1];
