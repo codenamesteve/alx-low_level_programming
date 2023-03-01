@@ -11,7 +11,7 @@ int _atoi(char *s)
 int result = 0;
 int x = 1;
 int digit;
-
+int final;
 while (*s != '\0')
 {
 if (*s == '-')
@@ -35,7 +35,6 @@ break;
 
 s++;
 }
-int final;
 final = x * result;
 return (final);
 }
