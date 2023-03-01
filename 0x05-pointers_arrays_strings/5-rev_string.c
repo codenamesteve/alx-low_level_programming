@@ -10,7 +10,6 @@ int i;
 char temp;
 for (i = length; i >= 0; i--)
 {
-temp += putchar(s[i]);
+putchar(s[i]);
 }
-s = temp;
 }
