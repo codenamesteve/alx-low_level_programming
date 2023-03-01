@@ -11,6 +11,6 @@ char temp;
 for (i = length; i >= 0; i--)
 {
 temp = s[i];
-s[i] = temp;
 }
+s[i] = temp;
 }
