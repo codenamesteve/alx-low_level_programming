@@ -16,11 +16,11 @@ while (*s != '\0')
 {
 if (*s == '-')
 {
-sign = -1;
+x = -1;
 }
 else if (*s == '+')
 {
-sign = 1;
+x = 1;
 }
 else if (*s >= '0' && *s <= '9')
 {
@@ -35,5 +35,6 @@ break;
 
 s++;
 }
-return (sign * result);
+int final = x * result;
+return (final);
 }
