@@ -2,17 +2,18 @@
 #include <string.h>
 /**
  * _strcpy - Main Code Insertion
- * @a: char type pointer.
- * @n: char type pointer.
+ * @dest: char type pointer.
+ * @src: char type pointer.
 */
 char *_strcpy(char *dest, char *src)
 {
-int n = strlen(src);
-size_t i;
-
-for (i = 0; i < n && src[i] != '\0'; i++)
-dest[i] = src[i];
-for ( ; i < n; i++)
-dest[i] = '\0';
-return dest;
+char *dest_start = dest;
+while (*src != '\0')
+{  // loop until null terminator is reached
+*dest = *src;  // copy character from src to dest 
+dest++;  // move dest and src pointers to next character
+src++;
+}
+*dest = '\0';  // add null terminator at end of string 
+return dest_start;
 }
