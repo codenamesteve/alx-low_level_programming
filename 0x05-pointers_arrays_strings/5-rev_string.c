@@ -8,7 +8,6 @@ void rev_string(char *s)
 {
 int x = strlen(s) - 1;
 int i;
-char y;
 for (i = x; i >= 0; i--)
 {
 s[i] = (s[i]);
