@@ -10,6 +10,6 @@ int x = strlen(s) - 1;
 int i;
 for (i = x; i >= 0; i--)
 {
-s[i] = (s[i]);
+s[i];
 }
 }
