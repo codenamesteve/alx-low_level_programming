@@ -6,14 +6,12 @@
  */
 void rev_string(char *s)
 {
-int i, j;
-char temp;
-j = strlen(s) - 1;
-for (i = 0; i < j; i++, j--)
+int x = strlen(s) - 1;
+int i;
+char y;
+for (i = x; i >= 0; i--)
 {
-temp = s[i];
-s[i] = s[j];
-s[j] = temp;
+y = y + (s[i]);
 }
-printf("%s\n", s);
+s = y;
 }
