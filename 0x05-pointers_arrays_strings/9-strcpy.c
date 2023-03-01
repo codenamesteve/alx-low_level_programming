@@ -4,6 +4,7 @@
  * _strcpy - Main Code Insertion
  * @dest: char type pointer.
  * @src: char type pointer.
+ * Return: return value of dest.
 */
 char *_strcpy(char *dest, char *src)
 {
@@ -15,5 +16,5 @@ dest++;
 src++;
 }
 *dest = '\0';
-return dest_start;
+return (dest_start);
 }
