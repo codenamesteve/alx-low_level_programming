@@ -3,12 +3,13 @@
 #include <string.h>
 /**
  * string_toupper - Main Code Insertion
+ *@str - string insertion
 */
-char *string_toupper(char *)
+char *string_toupper(char str)
 {
 int i;
-for (i = 0; i < strlen(string_toupper); i++)
+for (i = 0; i < strlen(str); i++)
 {
-string_toupper[i] = toupper(string_toupper[i]);
+str[i] = toupper(str[i]);
 }
 }
