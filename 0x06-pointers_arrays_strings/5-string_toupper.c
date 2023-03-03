@@ -3,15 +3,12 @@
 #include <string.h>
 /**
  * string_toupper - Main Code Insertion
- * @str: char type pointer.
- * Return: return value of str.
 */
-char *string_toupper(char *str)
+char *string_toupper(char *)
 {
 int i;
-for (i = 0; i < strlen(str); i++)
+for (i = 0; i < strlen(string_toupper); i++)
 {
-str[i] = toupper(str[i]);
+string_toupper[i] = toupper(string_toupper[i]);
 }
-return str;
 }
