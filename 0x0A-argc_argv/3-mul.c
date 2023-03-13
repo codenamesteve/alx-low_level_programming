@@ -7,10 +7,14 @@
 */
 int main(int argc, char *argv[])
 {
+int x;
+int y;
 int mul;
 if (argc > 2)
 {
-mul = atoi(argv[1]) * atoi(argv[2]);
+x = atoi(argv[1]);
+y = atoi(argv[2]);
+mul = x * y;
 printf("%d\n", mul);
 }
 else
