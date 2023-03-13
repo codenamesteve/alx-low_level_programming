@@ -1,59 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 /**
- * is_number - checks if entry is integer
- * @str: string
- * Return: Always return zero
-*/
-int is_number(char *str)
-{
-if (!str)
-{
-return (0);
-}
-char *p = str;
-while (*p)
-{
-if (!isdigit(*p))
-{
-return (0);
-}
-p++;
-}    
-return (1);
-}
-
-/**
- * main - sum positive arguments
- * @argc: int value of arguments
- * @argv: array of strings
- * Return: Always return zero
+ * main - Prints the addition of positive numbers
+ * @argc: The number of arguments passed to the program.
+ * @argv: An array of pointers to the arguments.
+ * Return: Zero always
 */
 int main(int argc, char *argv[])
 {
-int i;
-int sum = 0;
+int num, digit, sum = 0;
 
-if (argc > 1)
+for (num = 1; num < argc; num++)
 {
-for (i = 1; i < argc; i++)
+for (digit = 0; argv[num][digit]; digit++)
 {
-if (is_number(argv[i])
-{
-sum += atoi(argv[i]); 
-}
-else
+if (argv[num][digit] < '0' || argv[num][digit] > '9')
 {
 printf("Error\n");
 return (1);
 }
 }
-printf("%d\n", sum);
+
+sum += atoi(argv[num]);
 }
-else
-{
+
 printf("%d\n", sum);
-}
+
 return (0);
 }
