@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - mutiply two arguments
  * @argc: int value of arguments
@@ -7,14 +8,10 @@
 */
 int main(int argc, char *argv[])
 {
-int x;
-int y;
 int mul;
 if (argc > 2)
 {
-x = atoi(argv[1]);
-y = atoi(argv[2]);
-mul = x * y;
+mul = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", mul);
 }
 else
